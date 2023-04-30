@@ -1,0 +1,44 @@
+{
+  "language": "English",
+  "nothing-found": "Nothing found",
+  "switch-to": {
+    "dark": "Switch to dark theme",
+    "light": "Switch to light theme"
+  },
+  "main-menu": {
+    "home": {
+      "title": "Home",
+      "description": "Main page of the site"
+    },
+    "mdx": {
+      "title": "MDX Test",
+      "description": "MDX Test"
+    },
+    "profile": {
+      "title": "Profile",
+      "description": "Profile page"
+    }
+  },
+  "pages": {
+    "404": {
+      "title": "The very secret place",
+      "secret": "You have found a secret place.",
+      "description": "Page not found",
+      "text": "Unfortunately, this is only a 404 page. You may have mistyped the address, or the page has been moved to another URL.",
+      "home": "Take me back to home page"
+    },
+    "500": {
+      "title": "Internal server error",
+      "description": "Internal server error",
+      "text": "Internal server error"
+    }
+  },
+  "user-menu": {
+    "sign-in": "Sign in",
+    "log-out": "Log out",
+    "sing-in-modal": {
+      "title": "Sign in",
+      "message": "You can sing in using your social media credentials"
+    }
+  }
+}
