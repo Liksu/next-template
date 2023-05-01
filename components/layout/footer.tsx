@@ -1,12 +1,12 @@
-import { Anchor, Footer, Group } from '@mantine/core'
-import Link from 'next/link'
+import { Footer, Group } from '@mantine/core'
+import { FOOTER_HEIGHT } from '@/constants/main'
 
 interface FooterProps {
 }
 
 export default function SiteFooter(props: FooterProps): JSX.Element {
     return (
-        <Footer height={60} p="md">
+        <Footer height={FOOTER_HEIGHT} p="md">
             <Group position="apart">
                 <Group position="left">
                 </Group>
