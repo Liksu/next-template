@@ -13,7 +13,6 @@ export default function UserInfoMenu(): JSX.Element {
     const user = session?.data?.user as UserInfo
 
     function openLogin(): void {
-        console.log('openLogin')
         openModal({
             title: t('user-menu.sing-in-modal.title'),
             children: <UserSinginForm />,

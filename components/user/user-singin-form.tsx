@@ -9,7 +9,6 @@ import { MicrosoftButton } from '../social/microsoft-button'
 
 const UserSinginForm: FC = () => {
     const { t } = useTranslation('common')
-    console.log('UserSinginForm')
 
     return (
         <>
