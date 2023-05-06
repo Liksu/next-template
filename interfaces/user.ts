@@ -1,5 +1,5 @@
-import {Locale} from "@/interfaces/globals";
-import {User} from "next-auth";
+import { Locale } from '@/interfaces/globals'
+import { User } from 'next-auth'
 
 export type UserId = string
 

@@ -1,14 +1,6 @@
-import {
-    Children,
-    ElementType,
-    forwardRef,
-    ForwardRefExoticComponent,
-    PropsWithChildren,
-    PropsWithRef,
-    ReactElement
-} from 'react'
+import { forwardRef, ForwardRefExoticComponent, PropsWithChildren } from 'react'
 import { MenuItem } from '@/interfaces/globals'
-import { Anchor, AnchorProps, createStyles } from '@mantine/core'
+import { Anchor, createStyles } from '@mantine/core'
 import Link from 'next/link'
 
 interface ALinkProps extends PropsWithChildren {

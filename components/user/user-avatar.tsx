@@ -1,6 +1,6 @@
 import { ReactElement } from 'react'
-import {UserInfo} from "@/interfaces/user";
-import {Avatar} from "@mantine/core";
+import { UserInfo } from '@/interfaces/user'
+import { Avatar } from '@mantine/core'
 
 interface UserAvatarProps {
     user: UserInfo
