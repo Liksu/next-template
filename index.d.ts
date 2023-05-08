@@ -5,7 +5,7 @@ declare module 'next/config' {
         }
         serverRuntimeConfig: {
             mongoURI: string
-            mongoDb: string
+            mongoDB: string
             nextAuthURL: string
             nextAuthSecret: string
             googleAnalyticsId: string

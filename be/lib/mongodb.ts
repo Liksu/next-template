@@ -1,7 +1,7 @@
 import { MongoClient } from 'mongodb'
 import getConfig from 'next/config'
 
-const { mongoURI, mongoDb } = getConfig().serverRuntimeConfig
+const { mongoURI, mongoDB } = getConfig().serverRuntimeConfig
 
 const dbClientPromise = new MongoClient(mongoURI, {
     keepAlive: true,
@@ -9,6 +9,6 @@ const dbClientPromise = new MongoClient(mongoURI, {
 
 const dbClient = await dbClientPromise
 
-const db = dbClient.db(mongoDb)
+const db = dbClient.db(mongoDB)
 
 export { db, dbClient, dbClientPromise }
