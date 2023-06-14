@@ -3,9 +3,7 @@ import getConfig from 'next/config'
 
 const { mongoURI, mongoDB } = getConfig().serverRuntimeConfig
 
-const dbClientPromise = new MongoClient(mongoURI, {
-    keepAlive: true,
-}).connect()
+const dbClientPromise = new MongoClient(mongoURI).connect()
 
 const dbClient = await dbClientPromise
 
